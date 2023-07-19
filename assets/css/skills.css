@@ -1,0 +1,119 @@
+#wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    transform: scale(1); 
+    background-color: #CEB6B6;
+    opacity: 0.5;
+  }
+  /* Section */
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section-title h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color:  #ECCFD7;
+  }
+
+  /* Price_wrapper */
+  .price_wrapper {
+    margin-top: 30px;
+  }
+
+  .name-price-desc {
+    padding: 20px;
+    background-color: #674846;
+  }
+
+  .name-price-desc .head-title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ECCFD7;
+  }
+
+  .name-price-desc .name {
+    font-size: 20px;
+    font-weight: bold;
+    color:  #ECCFD7;
+  }
+
+  .name-price-desc .spl-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E1D0D3;
+  }
+
+  .name-price-desc .desc {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #CEB6B6;
+  }
+
+  /* Name a-tag (link) */
+  .name a-tag {
+    color:  #ECCFD7;
+    text-decoration: none;
+  }
+
+  .name a-tag:hover {
+    text-decoration: underline;
+  }
+
+  /* Style-4-border */
+  .style-4-border {
+    display: block;
+    margin-top: 5px;
+    border-top: 1px solid #CEB6B6;
+  }
+
+  /* Head-title.tab-links_spl */
+  .head-title.tab-links_spl {
+    font-size: 16px;
+    color: #CEB6B6;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  /* Section contact-me */
+ .contact-me .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .contact-me a {
+    text-decoration: none;
+    color: #CEB6B6;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #A08C8C;
+  }
+
+  .contact-me a:active {
+    color: #8F6363;
+  }

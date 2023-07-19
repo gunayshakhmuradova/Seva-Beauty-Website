@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Header */
+  header {
+    background: #674846;
+    max-height: auto;
+  }
+  
+  .logo_header {
+    height: min-content;
+    width: max-content;
+  }
+   .container {
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    max-width: max-content;
+  }
+  .nav-pills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CEB6B6;
+  }
+  .nav-item {
+    margin: 10px;
+    padding: 10px;
+  }
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.6rem; 
+  }
+
+  .nav-item:hover {
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .nav-item:active {
+    color: #ffffff;
+  }
+  .nav-link:visited{
+    color: #ECCFD7;
+  }
+  /* Main */
+  main {
+    background-color: #674846;
+    color: #ECCFD7;
+}
+  /* Carousel*/
+  .carousel {
+    padding: 10px 50px 10px 50px;
+  }
+
+  .carousel img {
+    border-radius: 5px;
+    max-width: 100vw;
+    max-height: 760px;
+  }
+
+  .carousel-control-prev-icon::before {
+    border-top: 5px solid #674846;
+    border-left: 5px solid #674846;
+  }
+  
+  .carousel-control-next-icon::before {
+    border-bottom: 5px solid #674846;
+    border-right: 5px solid #674846;
+  }
+  
+  /* Skills */
+  .skills {
+    max-width: 100vw;
+  }
+  .container .col {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+    color: #ECCFD7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s; 
+  }  
+
+  .container .col:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.1); 
+  }
+  .hair {
+    background: url(../img/hair_header.jpg) center 0 no-repeat;
+    
+  }
+  .nails {
+    background: url(../img/nails_header.jpg) center 0 no-repeat;
+  }
+  .makeup {
+    background: url(../img/makeup_header.jpg) center 0 no-repeat;
+  }
+
+  .links {
+    padding: 20px;
+  }
+
+  .links a {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 180px;
+    display: block;
+    text-decoration: none;
+    color: #CEB6B6;
+    text-shadow: 1px 1px;
+    font: 300 48px/60px 'Open Sans', sans-serif;
+  }
+  
+  .links a strong {
+    margin-bottom: 10px;
+    margin-left: -75px;
+    font-size: 68px;
+    display: block;
+    font-weight: normal;
+  }
+
+/* Slogan */
+  .slogan {
+    padding: 50px 0 76px;
+    text-align: center;
+    text-shadow:#ECCFD7;
+    color: #CEB6B6;
+    font: 60px/60px 'Open Sans', sans-serif;
+    background: url(../img/logo.png) #674846 bottom right 0 no-repeat;
+  }
+  
+  
+  /* Footer */
+
+  footer {
+    background-color: #674846;
+    opacity: 0.5;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .socials a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .copy {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .copy a {
+    color: #fff;
+  }
+  
+  .footer_logo {
+   float: left;
+  }
+  
+
+  
