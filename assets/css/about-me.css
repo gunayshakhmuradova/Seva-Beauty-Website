@@ -1,0 +1,49 @@
+ ul li {
+      list-style-type: none;
+  }
+
+    /* Style for the main container */
+    main {
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      padding-bottom: 100px;
+    }
+
+    /* Style for the "Hakkımızda" section */
+    .about-me {
+      padding: 20px;
+      border: 1px solid #ECCFD7;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .about-me h2 {
+      color: #CEB6B6;
+    }
+
+    .about-me img {
+      width: 240px;
+      height: 360px;
+      margin-bottom: 10px;
+    }
+
+    .about-me p {
+      color: #CEB6B6;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    /* Style for the gallery section */
+    .gallery {
+      padding: 20px;
+      background-color:  #674846;
+      border: 1px solid #ECCFD7;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ECCFD7;
+    }
