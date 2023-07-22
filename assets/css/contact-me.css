@@ -66,3 +66,45 @@ main {
     display: table;
     clear: both;
   }
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 600px;
+    }
+    main {
+      padding-bottom: 120px;
+    }
+  
+    sec1 {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .sec-dec {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Adjusting font size and padding for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .section-title h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .sec-text i {
+      font-size: 14px;
+      margin-right: 3px;
+    }
+  
+    .sec-dec {
+      height: 5px;
+      margin-bottom: 10px;
+    }
+  
+    main {
+      padding-bottom: 120px;
+    }
+  }

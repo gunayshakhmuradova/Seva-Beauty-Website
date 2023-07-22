@@ -1,7 +1,27 @@
  ul li {
       list-style-type: none;
   }
+article a {
+  text-decoration: none;
+  color: #CEB6B6;
+  font-weight: bold;
+  transition: color 0.2s;
+}
 
+article a:hover {
+  color: #CEB6B6;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  transform: scale(1);
+  opacity: 0.5; 
+}
+
+article a:visited {
+  color: #ECCFD7;
+}
+
+article a:active {
+  color:#674846;
+}
     /* Style for the main container */
     main {
       width: 100%;
@@ -10,7 +30,7 @@
       padding-bottom: 100px;
     }
 
-    /* Style for the "Hakkımızda" section */
+    /* Style for the about-me" section */
     .about-me {
       padding: 20px;
       border: 1px solid #ECCFD7;
@@ -47,3 +67,36 @@
       height: auto;
       border: 1px solid #ECCFD7;
     }
+
+    /* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .about-me img {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+/* Adjusting padding and font size for even smaller screens */
+@media screen and (max-width: 480px) {
+  main {
+    padding: 10px;
+    padding-bottom: 80px;
+  }
+
+  .about-me {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .about-me h2 {
+    font-size: 18px;
+  }
+
+  .about-me p {
+    font-size: 14px;
+  }
+
+  .gallery {
+    padding: 10px;
+  }
+}

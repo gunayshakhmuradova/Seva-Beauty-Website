@@ -173,5 +173,40 @@ body, html {
    float: left;
   }
   
-
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .nav-pills {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  
+    .carousel img {
+      max-height: 500px;
+    }
+  
+    .links a {
+      padding-left: 80px;
+      font-size: 36px;
+    }
+  
+    .slogan {
+      font-size: 36px;
+    }
+  }
+  
+  /* Adjusting container width for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .links a {
+      padding-left: 30px;
+      font-size: 24px;
+    }
+  
+    .slogan {
+      font-size: 24px;
+    }
+  }
   

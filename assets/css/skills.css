@@ -117,3 +117,48 @@
   .contact-me a:active {
     color: #8F6363;
   }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .section-title h3 {
+      font-size: 20px;
+    }
+  
+    .name-price-desc .head-title {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  
+    .name-price-desc .name {
+      font-size: 18px;
+    }
+  
+    .name-price-desc .spl-price {
+      font-size: 16px;
+    }
+  
+    .name-price-desc .desc {
+      font-size: 12px;
+    }
+  
+    .head-title.tab-links_spl {
+      font-size: 14px;
+      padding-bottom: 5px;
+    }
+  
+    h4 {
+      font-size: 16px;
+    }
+  }
+  
+  /* Adjusting container width for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .price_wrapper .name-price-desc {
+      padding: 10px;
+    }
+  
+    .contact-me .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
