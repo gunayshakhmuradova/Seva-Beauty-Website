@@ -175,38 +175,47 @@ body, html {
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
+
     .nav-pills {
       flex-direction: column;
       align-items: center;
     }
-  
     .nav-item {
       margin: 10px 0;
+      padding: 0;
     }
-  
-    .carousel img {
-      max-height: 500px;
+    .nav-link {
+      font-size: 1.2rem;
     }
-  
-    .links a {
-      padding-left: 80px;
-      font-size: 36px;
+     .links a {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-left: 130px;
     }
-  
+    .container .col {
+      width: 100%;
+      margin: 20px;
+      padding: 30px;
+    }
+    .carousel {
+      padding: 10px 5px;
+    }
     .slogan {
       font-size: 36px;
     }
-  }
-  
-  /* Adjusting container width for even smaller screens */
+  } 
+  /* Add a media query to adjust styles for even smaller screens */
   @media screen and (max-width: 480px) {
     .links a {
-      padding-left: 30px;
-      font-size: 24px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 60px;
     }
-  
+    .container .col {
+      font-size: 18px;
+      line-height: 1.5;
+    }
     .slogan {
       font-size: 24px;
     }
   }
-  
