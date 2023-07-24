@@ -24,10 +24,10 @@ body, html {
     margin: 0 auto;
     padding: 10px;
   }
-  
   .navbar {
     background-color: transparent;
     max-width: max-content;
+    margin-bottom: 10px;
   }
   .nav-pills {
     list-style: none;
@@ -37,22 +37,27 @@ body, html {
     justify-content: center;
     align-items: center;
     color: #CEB6B6;
-  }
-  .nav-item {
-    margin: 10px;
-    padding: 10px;
-  }
+  } 
   .nav-link {
     text-decoration: none;
     font-size: 1.6rem; 
   }
-
+  .nav-item {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+  }
+ 
   .nav-item:hover {
-    color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #674846;
+    background-color: #CEB6B6;
+    border-radius: 5px;
   }
   .nav-item:active {
-    color: #ffffff;
+    border: 2px solid #CEB6B6;
+    background-color: #674846;
+    color: #CEB6B6;
   }
   .nav-link:visited{
     color: #ECCFD7;

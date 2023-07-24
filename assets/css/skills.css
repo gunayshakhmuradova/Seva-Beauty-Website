@@ -5,14 +5,15 @@
     padding: 20px;
   }
 
-  ul li {
+ #tiles li {
     list-style-type: none;
   }
 
-  ul li:hover {
+  #tiles li:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
     transform: scale(1); 
-    background-color: #CEB6B6;
+    background-color: #E1D0D3;
+    color: #674846;
     opacity: 0.5;
   }
   /* Section */
@@ -107,10 +108,10 @@
     text-decoration: none;
     color: #CEB6B6;
   }
-  a:hover {
+  .conact-me a:hover {
     text-decoration: underline;
   }
-  a:visited {
+  .contact-me a:visited {
     color: #A08C8C;
   }
 
