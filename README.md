@@ -1,5 +1,5 @@
 # Seva-beauty-website
-<b>This is a Website with Bootstrap and jQuery. </b>
+<b>This is a "Website" with Bootstrap and jQuery. </b>
 <br><br>
 <img src="https://github.com/shzehra93/Seva-Beauty-website/assets/126316477/d3e8f38a-8698-4267-b48b-1bc10ace9bd4" alt="seva-beauty1" height="260px" width="420px">
 <img src="https://github.com/shzehra93/Seva-Beauty-website/assets/126316477/fb407cbd-b5e1-49d6-9f07-6b6924f5010a" alt="seva-beauty2" height="260px" width="420px">
