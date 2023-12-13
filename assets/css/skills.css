@@ -183,7 +183,8 @@
     }
 
     .alert {
-        width: 90vw; /* Adjust the width for smaller screens */
+        width: 90vw;
+        height: auto;
     }
   }
   
